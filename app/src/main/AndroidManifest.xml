@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.holamundo">
+    package="com.example.ProyectoAndroidGrupo07UTP">
 
     <application
         android:allowBackup="true"
@@ -10,18 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundo">
         <activity
-            android:name=".SecondActivity"
+            android:name="com.example.ProyectoAndroidGrupo07UTP.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".CategoriaActivity"
+            android:name="com.example.ProyectoAndroidGrupo07UTP.CategoriaActivity"
             android:exported="false"
             android:label="@string/title_activity_categoria"
             android:theme="@style/Theme.HolaMundo.NoActionBar" />
         <activity
-            android:name=".ProductoActivity"
+            android:name="com.example.ProyectoAndroidGrupo07UTP.ProductoActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.ProyectoAndroidGrupo07UTP.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

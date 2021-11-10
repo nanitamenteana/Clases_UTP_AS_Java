@@ -1,4 +1,4 @@
-package com.example.holamundo;
+package com.example.ProyectoAndroidGrupo07UTP;
 
 import android.os.Bundle;
 
@@ -13,7 +13,7 @@ import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
-import com.example.holamundo.databinding.ActivityCategoriaBinding;
+import com.example.ProyectoAndroidGrupo07UTP.databinding.ActivityCategoriaBinding;
 
 public class CategoriaActivity extends AppCompatActivity {
 
