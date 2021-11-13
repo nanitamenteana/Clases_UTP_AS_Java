@@ -11,9 +11,11 @@
         android:theme="@style/Theme.HolaMundo">
         <activity
             android:name=".ThirdActivity"
+            android:label="@string/actividad3"
             android:exported="false" />
         <activity
             android:name=".SecondActivity"
+            android:label="@string/actividad2"
             android:exported="false" />
         <activity
             android:name=".CategoriaActivity"
