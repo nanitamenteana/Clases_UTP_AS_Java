@@ -10,18 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundo">
         <activity
-            android:name="com.example.ProyectoAndroidGrupo07UTP.SecondActivity"
+            android:name=".ThirdActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.ProyectoAndroidGrupo07UTP.CategoriaActivity"
+            android:name=".SecondActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CategoriaActivity"
             android:exported="false"
             android:label="@string/title_activity_categoria"
             android:theme="@style/Theme.HolaMundo.NoActionBar" />
         <activity
-            android:name="com.example.ProyectoAndroidGrupo07UTP.ProductoActivity"
+            android:name=".ProductoActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.ProyectoAndroidGrupo07UTP.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

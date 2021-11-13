@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Clases Android Studio</string>
+    <string name="app_name">Proyecto Grupo 07</string>
     <string name="title_activity_categoria">CategoriaActivity</string>
     <string name="actividadsecundaria">Actividad 2</string>
     <!-- Strings used for fragments for navigation -->

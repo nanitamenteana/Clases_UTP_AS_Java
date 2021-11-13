@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Intent newIntent = new Intent(this,SecondActivity.class);
         newIntent.putExtra("msg", "Hola Activity 2"); //Esto es para poner un mensaje
         newIntent.putExtra("msg", "Bienvenido");
+        newIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         startActivity(newIntent);
     }
 
