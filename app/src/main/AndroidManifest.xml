@@ -10,13 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundo">
         <activity
-            android:name=".ThirdActivity"
-            android:label="@string/actividad3"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:name=".ThirdActivity"
+            android:exported="false"
+            android:label="@string/actividad3" />
+        <activity
             android:name=".SecondActivity"
-            android:label="@string/actividad2"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/actividad2" />
         <activity
             android:name=".CategoriaActivity"
             android:exported="false"
@@ -26,7 +29,7 @@
             android:name=".ProductoActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
