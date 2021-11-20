@@ -5,15 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    //Declarar una variable global para que todos los métodos la identifiquen
+    TextView t1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +25,24 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toast.makeText(this, "Metodo onCreate()", Toast.LENGTH_LONG).show();
         Log.i("Esto es una prueba", "Error");
+        //Buscar texto por id
+        t1 = (TextView) findViewById(R.id.textview);
+        //Cambiar texto relacionado con el ID para hacer cambios en tiempo de ejecución
+        t1.setText("¡Hola Mundo Cruel!");
+        //Cambiar tamaño texto relaciona con el ID
+        t1.setTextSize(24);
+        //Cambiar color texto relacionado con el ID
+        t1.setTextColor(Color.BLUE);
+        t1.getWidth();
+        Toast.makeText(this,""+t1.getWidth(),Toast.LENGTH_SHORT);
+    }
+//Para observar el ancho de un texto
+    public void onWindowsFocus(boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        if(hasFocus) {
+            Toast.makeText(this,""+t1.getWidth(),Toast.LENGTH_SHORT);
+        }
+
     }
 // Para llamar por un botón a la siguiente actividad
 
