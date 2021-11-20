@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginejemplo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/logoandroid"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/ic_icons8_android_os" />
+
+    <TextView
+        android:id="@+id/nombreproyecto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-TUTOR"
+        android:textColor="#989393" />
+
+    <EditText
+        android:id="@+id/usuariohint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="textPersonName"
+        android:text="Usuario" />
+
+    <EditText
+        android:id="@+id/contraseñahint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword"
+        android:text="contraseña" />
+
+    <Button
+        android:id="@+id/botoniniciosesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="iniciar sesión" />
+
+</LinearLayout>
