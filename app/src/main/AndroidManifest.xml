@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HolaMundo">
         <activity
-            android:name=".LoginActivity"
+            android:name=".Login"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
