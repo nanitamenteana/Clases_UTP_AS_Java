@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,""+t1.getWidth(),Toast.LENGTH_SHORT);
     }
 //Para observar el ancho de un texto
-    public void onWindowsFocus(boolean hasFocus){
+    public void onWindowFocusChanged(boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
         if(hasFocus) {
             Toast.makeText(this,""+t1.getWidth(),Toast.LENGTH_SHORT);
