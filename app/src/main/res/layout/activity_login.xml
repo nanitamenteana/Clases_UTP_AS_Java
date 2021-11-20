@@ -45,8 +45,7 @@
                 android:ems="10"
                 android:hint="Usuario"
                 android:inputType="textPersonName"
-                android:onClick="login"
-                android:text="Usuario" />
+                android:onClick="login" />
 
             <EditText
                 android:id="@+id/contraseñahint"
@@ -55,8 +54,7 @@
                 android:drawableLeft="@drawable/ic_password"
                 android:ems="10"
                 android:hint="contraseña"
-                android:inputType="textPassword"
-                android:text="contraseña" />
+                android:inputType="textPassword" />
 
             <Button
                 android:id="@+id/botoniniciosesion"
@@ -72,7 +70,7 @@
                 android:id="@+id/textView5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Recordar Contraseña"
+                android:text="Recordar contraseña"
                 android:textAlignment="center" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
